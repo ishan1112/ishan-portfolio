@@ -1,7 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp, HiOutlineChevronRight } from "react-icons/hi";
+import contact from "../public/assets/projects/contactimg.jpg"
 
 const Contact = () => {
   const Contact = "<Contact />";
@@ -19,11 +21,12 @@ const Contact = () => {
             <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
               <div className="lg:p-4 h-full">
                 <div className="">
-                  <img
+                  {/* <img
                     src="https://images.unsplash.com/photo-1520923642038-b4259acecbd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvbnRhY3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
                     alt=""
                     className="rounded-xl hover:scale-110 ease-in duration-300 shadow-xl drop-shadow-2xl"
-                  />
+                  /> */}
+                  <Image src={contact} className="rounded-xl hover:scale-110 ease-in duration-300 shadow-xl drop-shadow-2xl"/>
                 </div>
                 <div className="">
                   <h2 className="py-2">Ishan Panchal</h2>
