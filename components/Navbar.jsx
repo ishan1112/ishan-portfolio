@@ -92,7 +92,7 @@ const Navbar = () => {
                   </div>
                 </div>
                 <div className="border-b border-gray-300 my-[2px]">
-                  <p className="w-[85%] md:w-[90%] py-3">Let's build something together</p>
+                  <p className="w-[85%] md:w-[90%] py-3">Lets build something together</p>
                 </div>
               </div>
               <div className="py-2 flex flex-col">
@@ -114,7 +114,7 @@ const Navbar = () => {
                   </Link>
                 </ul>
                 <div className="pt-3 border-t border-gray-400">
-                  <p className="uppercase tracking-widest">Let's Connect</p>
+                  <p className="uppercase tracking-widest">Lets Connect</p>
                   <div className="flex items-center justify-evenly">
                     <div className=" mt-5 rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-90 ease-in duration-150">
                       <a href="https://www.linkedin.com/in/ishanpanchal/" target='_blank'>

@@ -27,17 +27,16 @@ const About = () => {
               workflow and its various components.
             </p>
             <p className="py-3 text-gray-600">
-              Exceptional communication skills empower Ishan to effectively
+              `Exceptional communication skills empower Ishan to effectively
               manage client interactions and ensure smooth collaboration.
-              Ishan's commitment to providing exceptional service aligns
-              perfectly with the company's needs. With Ishan's skills and
+              Ishans commitment to providing exceptional service aligns
+              perfectly with the companys needs. With Ishans skills and
               capabilities, the company can expect a valuable addition to their
-              development team. Embrace Ishan's passion for continuous growth
+              development team. Embrace Ishans passion for continuous growth
               and their ability to adapt to new challenges seamlessly. Thank you
               for considering Ishan Panchal. Reach out today to discover how
-              Ishan can contribute to your company's success. Line [insert line
-              number] - Thank you for connecting with us. We appreciate your
-              time.
+              Ishan can contribute to your companys success. Line 21 Thank you for connecting with us. We appreciate your
+              time.`
             </p>
             <p className="py-2 text-gray-600 underline cursor-pointer">{LatestProject}</p>
           </div>
