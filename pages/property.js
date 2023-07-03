@@ -15,6 +15,7 @@ const property = () => {
               className="absolute bg-black/70 z-0"
               layout="fill"
               objectFit="cover"
+              alt='properties'
             />
             <div className="absolute top-[70%] max-w-[1200px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2 z-10">
               <h2 className="py-2">Project - 1</h2>

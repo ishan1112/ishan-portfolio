@@ -12,6 +12,7 @@ const ProjectItems = ({title,proImg,proUrl}) => {
           height={1000}
           width={1000}
           className="rounded-xl group-hover:opacity-10"
+          alt="Hello"
         />
         <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
           <h3 className="text-2xl text-black tracking-wider text-center">

@@ -31,7 +31,7 @@ const Skills = () => {
                     <div className="p-6 shadow-2xl drop-shadow-2xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={html} width={64}  height={64}/>
+                                <Image src={html} width={64}  height={64} alt='l1'/>
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="">{htmlF}</h3>
@@ -42,7 +42,7 @@ const Skills = () => {
                     <div className="p-6 shadow-2xl drop-shadow-2xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={css} width={74}  height={74}/>
+                                <Image src={css} width={74}  height={74} alt='l2'/>
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="">{cssF}</h3>
@@ -53,7 +53,7 @@ const Skills = () => {
                     <div className="p-6 shadow-2xl drop-shadow-2xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={js} width={120}  height={120}/>
+                                <Image src={js} width={120}  height={120} alt='l3'/>
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="">{jsF}</h3>
@@ -64,7 +64,7 @@ const Skills = () => {
                     <div className="p-6 shadow-2xl drop-shadow-2xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto mt-4">
-                                <Image src={tailwind} width={64}  height={64}/>
+                                <Image src={tailwind} width={64}  height={64} alt='l4'/>
                             </div>
                             <div className="flex flex-col items-center justify-center mt-4">
                                     <h3 className="">{tailwindF}</h3>
@@ -75,7 +75,7 @@ const Skills = () => {
                     <div className="p-6 shadow-2xl drop-shadow-2xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={reactjs} width={64}  height={64}/>
+                                <Image src={reactjs} width={64}  height={64} alt='l5'/>
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                     <h3 className="">{reactF}</h3>
@@ -86,7 +86,7 @@ const Skills = () => {
                     <div className="p-6 shadow-2xl drop-shadow-2xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={node} width={64}  height={64}/>
+                                <Image src={node} width={64}  height={64} alt='l6'/>
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                     <h3 className="">{nodeF}</h3>
@@ -97,7 +97,7 @@ const Skills = () => {
                     <div className="p-6 shadow-2xl drop-shadow-2xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={express} width={64}  height={64}/>
+                                <Image src={express} width={64}  height={64} alt='l7'/>
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                     <h3 className="">{expressF}</h3>
@@ -108,7 +108,7 @@ const Skills = () => {
                     <div className="p-6 shadow-2xl drop-shadow-2xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={mongodb} width={64}  height={64}/>
+                                <Image src={mongodb} width={64}  height={64} alt='l8'/>
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3 className="">{mongoF}</h3>

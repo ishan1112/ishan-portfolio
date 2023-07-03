@@ -57,7 +57,7 @@ const Navbar = () => {
         className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] bg-gray-200' : 'fixed w-full h-20 z-[100]'}>
           <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
             <Link href={'/'}>
-              <Image src={navLogo} height={80} width={135} className='' />
+              <Image src={navLogo} height={80} width={135} className='' alt='imges' />
             </Link>
               <div className="">
                 <ul  style={{color:`${linkColor}`}} className="hidden md:flex">
@@ -86,7 +86,7 @@ const Navbar = () => {
             <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-4 ease-in duration-500' : 'fixed left-[-100%] top-0 p-4 ease-in duration-500'}>
               <div className="">
                 <div className="flex items-center justify-between w-full">
-                  <Image src={navLogo} width={90} height={25} />
+                  <Image src={navLogo} width={90} height={25} alt='imgg' />
                   <div className="rounded-full p-2 shadow-xl shadow-gray-400 cursor-pointer" onClick={handleNav}>
                     <AiOutlineClose size={22} />
                   </div>
