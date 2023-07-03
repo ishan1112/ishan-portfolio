@@ -44,7 +44,7 @@ const About = () => {
           <div className="w-[90%] h-[77%] m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-90 ease-in-out duration-300">
             {/* Because using unsplash URL Otherwise must use <Image/ > component */}
             {/* <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="" className="rounded-xl shadow-xl shadow-black drop-shadow-xl" /> */}
-            <Image src={about}  className="rounded-xl shadow-xl shadow-black drop-shadow-xl" />
+            <Image src={about}  className="rounded-xl shadow-xl shadow-black drop-shadow-xl" alt="img1"/>
           </div>
         </div>
       </div>

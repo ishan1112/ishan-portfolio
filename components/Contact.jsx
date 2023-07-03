@@ -26,7 +26,7 @@ const Contact = () => {
                     alt=""
                     className="rounded-xl hover:scale-110 ease-in duration-300 shadow-xl drop-shadow-2xl"
                   /> */}
-                  <Image src={contact} className="rounded-xl hover:scale-110 ease-in duration-300 shadow-xl drop-shadow-2xl"/>
+                  <Image src={contact} className="rounded-xl hover:scale-110 ease-in duration-300 shadow-xl drop-shadow-2xl" alt="img" />
                 </div>
                 <div className="">
                   <h2 className="py-2">Ishan Panchal</h2>
